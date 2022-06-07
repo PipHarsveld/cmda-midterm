@@ -15,6 +15,7 @@
         <PrismicRichText :field="chapter['content-of-chapter']" />
       </section>
     </article>
+    <slice-zone :components="components" :slices="document.data.slices" />
   </section>
 </template>
 
