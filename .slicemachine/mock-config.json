@@ -1,6 +1,41 @@
 {
   "slices": {
     "FirstSlice": {},
-    "CardSwitchComponent": {}
+    "CardSwitchComponent": {},
+    "Heading": {},
+    "HeadingElement": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      },
+      "subheading": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "ChapterSection": {
+      "default": {
+        "primary": {
+          "chapterimage": {
+            "content": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85"
+          }
+        }
+      }
+    }
+  },
+  "_cts": {
+    "test": {}
   }
 }

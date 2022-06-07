@@ -1,0 +1,12 @@
+:root{ 
+  --accent: #FFF021;
+  --black: #000000;
+  --white: #FFFFFF;
+  --sec-accent-1: #F0EBF0;
+  --sec-accent-2: #FAF0D7;
+  --sec-accent-3: #E0F4DF;
+}
+
+* {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}

@@ -9,16 +9,16 @@
         >{{ document.uid }}</nuxt-link
       >
     </div>
-    <CardCon></CardCon>
+    <p>hello</p>
   </div>
 </template>
 
 <script>
 import CardCon from '~/components/CardCon.vue'
 export default {
-   components: {
-    CardCon
-},
+  components: {
+    CardCon,
+  },
 
   name: 'IndexPage',
 
