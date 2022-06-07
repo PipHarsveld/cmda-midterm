@@ -14,12 +14,7 @@
 </template>
 
 <script>
-import CardCon from '~/components/CardCon.vue'
 export default {
-  components: {
-    CardCon,
-  },
-
   name: 'IndexPage',
 
   async asyncData({ $prismic, params, error }) {
