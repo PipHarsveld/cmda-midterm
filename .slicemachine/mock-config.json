@@ -1,5 +1,6 @@
 {
   "slices": {
-    "FirstSlice": {}
+    "FirstSlice": {},
+    "CardSwitchComponent": {}
   }
 }
