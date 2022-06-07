@@ -15,11 +15,12 @@
         <PrismicRichText :field="chapter['content-of-chapter']" />
       </section>
     </article>
-    <slice-zone :components="components" :slices="document.data.slices" />
+    <slice-zone :components="components" :slices="document.data.slices"/>
   </section>
 </template>
 
 <script>
+import { components } from '~/slices'
 export default {
   async asyncData({$prismic, params, error}) {
     const document = await $prismic.api.getByUID('standaard', params.uid)
