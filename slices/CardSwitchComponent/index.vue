@@ -2,19 +2,19 @@
   <section class="section">
     <PrismicRichText :field="slice.primary.title" class="title" />
     <PrismicRichText :field="slice.primary.description" />
-<div v-for="(item, i) in slice.items" :key="`slice-item-${i}`">    
-  <span>{{ item.oldComp }}</span>
-</div>
+    <div v-for="(item, i) in slice.items" :key="`slice-item-${i}`">
+      <span>{{ item.oldComp }}</span>
+    </div>
   </section>
 </template>
 
 <script>
-import { getSliceComponentProps } from "@prismicio/vue/components";
+import { getSliceComponentProps } from '@prismicio/vue/components'
 
 export default {
-  name: "CardSwitchComponent",
+  name: 'CardSwitchComponent',
   // The array passed to `getSliceComponentProps` is purely optional and acts as a visual hint for you
-  props: getSliceComponentProps(["slice", "index", "slices", "context"]),
+  props: getSliceComponentProps(['slice', 'index', 'slices', 'context']),
 }
 </script>
 
