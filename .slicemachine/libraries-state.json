@@ -105,6 +105,165 @@
           }
         }
       },
+      "chapter_section": {
+        "library": "slices",
+        "id": "chapter_section",
+        "name": "ChapterSection",
+        "description": "ChapterSection",
+        "model": {
+          "id": "chapter_section",
+          "type": "SharedSlice",
+          "name": "ChapterSection",
+          "description": "ChapterSection",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ChapterSection",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                },
+                "chapterimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Chapter Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "imageLeft",
+              "name": "Image-left",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ChapterSection",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                },
+                "chapterimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Chapter Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "chapter_section",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Expedite frictionless applications",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Culpa non pariatur aute ad sit in laboris fugiat aute do proident eu incididunt. Eu qui reprehenderit sint deserunt. Mollit veniam nulla ipsum dolore magna et dolor sint cupidatat.",
+                  "spans": []
+                }
+              ],
+              "chapterimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?w=900&h=500&fit=crop"
+              }
+            }
+          },
+          "imageLeft": {
+            "variation": "imageLeft",
+            "name": "Image-left",
+            "slice_type": "chapter_section",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Transition compelling ROI",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Tempor ut proident veniam quis magna tempor deserunt ipsum deserunt irure enim et ad ad excepteur.",
+                  "spans": []
+                }
+              ],
+              "chapterimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "imageLeft": {
+            "path": "C:\\Users\\favds\\OneDrive\\Documents\\School\\Jaar 3\\Minor Web\\cmda-mid-term\\.slicemachine\\assets\\slices\\ChapterSection\\imageLeft\\preview.png",
+            "width": 800,
+            "height": 245
+          }
+        }
+      },
       "heading_element": {
         "library": "slices",
         "id": "heading_element",
@@ -226,12 +385,12 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\favds\\OneDrive\\Documents\\School\\Jaar 3\\Minor Web\\cmda-mid-term\\.slicemachine\\assets\\slices\\FirstSlice\\default\\preview.png",
+            "path": "C:\\Users\\favds\\OneDrive\\Documents\\School\\Jaar 3\\Minor Web\\cmda-mid-term\\.slicemachine\\assets\\slices\\HeadingElement\\default\\preview.png",
             "width": 800,
             "height": 247
           },
           "subheading": {
-            "path": "/Users/nbmp/repos/cmda-mid-term/.slicemachine/assets/slices/HeadingElement/subheading/preview.png",
+            "path": "C:\\Users\\favds\\OneDrive\\Documents\\School\\Jaar 3\\Minor Web\\cmda-mid-term\\.slicemachine\\assets\\slices\\HeadingElement\\subheading\\preview.png",
             "width": 800,
             "height": 184
           }

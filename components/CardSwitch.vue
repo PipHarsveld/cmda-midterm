@@ -30,7 +30,7 @@
 
 <script>
   export default {
-      name: 'CardCon',
+      name: 'CardSwitch',
       data () {
           return {
               isChecked : false

@@ -20,8 +20,10 @@
 </template>
 
 <script>
-import { components } from '~/slices'
 export default {
+  data() {
+    return { components }
+  },
   async asyncData({$prismic, params, error}) {
     const document = await $prismic.api.getByUID('standaard', params.uid)
 
