@@ -78,26 +78,19 @@ export default {}
 </script>
 
 <style>
-body{
-  margin: 0;
-}
-
 section{
-  margin: 0;
-  padding: 2rem 12.5rem;
-
   background-color: var(--lavendel);
 }
 
 section ul{
   display: grid;
-    grid-auto-rows: minmax(100px, auto);
-
-  /* grid-template-columns: repeat(2, 1fr); */
-  /* grid-template-rows: repeat(3, auto); */
+    /* grid-auto-rows: minmax(100px, auto); */
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(3, auto);
   /* grid-template-columns: repeat(2, minmax(20rem, 1fr)); */
   grid-gap: 2.5rem;
   max-width: 100%;
+  padding-left: 0;
 }
 
 section ul li{
