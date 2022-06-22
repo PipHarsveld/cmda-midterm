@@ -1,0 +1,68 @@
+{
+  "id": "homepage",
+  "label": "homepage",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Uid",
+          "placeholder": ""
+        }
+      },
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Title",
+          "placeholder": "mid-term",
+          "allowTargetBlank": true,
+          "single": "heading1"
+        }
+      },
+      "period": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Period",
+          "placeholder": "curriculum 2022-2024",
+          "allowTargetBlank": false,
+          "single": "paragraph"
+        }
+      },
+      "introtext": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Introtext",
+          "placeholder": "Voorwoord",
+          "allowTargetBlank": true,
+          "single": "heading2"
+        }
+      },
+      "voorwoordContent": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Voorwoord Content",
+          "placeholder": "lorem ipsum tekst",
+          "allowTargetBlank": true,
+          "single": "paragraph"
+        }
+      },
+      "background": {
+        "type": "Image",
+        "config": {
+          "label": "Background",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    }
+  }
+}

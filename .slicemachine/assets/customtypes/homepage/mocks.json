@@ -1,0 +1,44 @@
+{
+  "id": "e219e7ea-4514-47e0-8cb3-8eb7bd91d354",
+  "uid": "distinctio-velit-velit",
+  "type": "homepage",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Optimize 24/7 web services",
+        "spans": []
+      }
+    ],
+    "period": [
+      {
+        "type": "paragraph",
+        "text": "Qui ad est fugiat velit Lorem incididunt excepteur id elit sit labore cupidatat. Est ad reprehenderit consequat pariatur enim deserunt culpa nulla dolore. Cillum adipisicing consequat laborum velit aliqua.",
+        "spans": []
+      }
+    ],
+    "introtext": [
+      {
+        "type": "heading2",
+        "text": "Generate interactive markets",
+        "spans": []
+      }
+    ],
+    "voorwoordContent": [
+      {
+        "type": "paragraph",
+        "text": "Cupidatat do enim tempor nisi. Culpa tempor Lorem veniam sit labore nulla non amet ullamco nulla. Non consectetur ea pariatur do.",
+        "spans": []
+      }
+    ],
+    "background": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=900&h=500&fit=crop"
+    }
+  }
+}
