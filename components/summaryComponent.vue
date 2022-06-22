@@ -86,9 +86,13 @@ section {
 
 section ul {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+    /* grid-auto-rows: minmax(100px, auto); */
+  grid-template-columns: repeat(2, 1fr); 
   grid-template-rows: repeat(3, auto);
-  grid-gap: 2rem;
+  /* grid-template-columns: repeat(2, minmax(20rem, 1fr)); */
+  grid-gap: 2.5rem;
+  max-width: 100%;
+  padding-left: 0;
 }
 section ul li {
   display: flex;
@@ -97,10 +101,13 @@ section ul li {
 section ul li:last-of-type {
   grid-area: 1 / 2 / 2 / 3;
 }
-section ul li:last-of-type img {
-  /* Height en width veranderen als de goede afbeelding  */
-  width: 31.5rem;
+
+section ul li:last-of-type img{
+  /* Height en width veranderen als de goede afbeelding erin staat */
+  width: 30vw;
   height: 13rem;
+  margin-left: auto;
+  margin-right: 0;
 }
 section ul li p {
   margin: 0;
@@ -150,7 +157,7 @@ section ul li img {
   content: '';
   display: block;
   position: absolute;
-  bottom: -38px;
+  bottom: -37px;
   left: 24.5%;
   z-index: 0;
   width: 0;
@@ -190,4 +197,11 @@ section ul li img {
   border-width: 31px 16px 0;
   transform: skewX(25deg);
 }
+
+@media screen and (min-width:821px) {
+    section ul {
+        grid-template-columns: repeat(auto-fill, 1fr);
+    }
+}
+
 </style>
