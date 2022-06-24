@@ -22,7 +22,7 @@ export default {}
 
 <style>
 /* section {
-    background-color: #595959;
+    background-color: hotpink;
 } */
 
 </style>
