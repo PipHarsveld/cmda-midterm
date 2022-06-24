@@ -154,7 +154,7 @@ section {
   color: white;
   padding: 0.75rem 1rem;
   min-width: min-content;
-  width: 100git%;
+  width: 100%;
   font-size: 1rem;
   text-align: left;
   position: relative;
