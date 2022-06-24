@@ -142,7 +142,7 @@ export default {
 
 .CardCon ul li:before {
   content: '';
-  float: left;
+  /* float: left; */
   width: 0;
   height: 0;
   display: inline-block;
