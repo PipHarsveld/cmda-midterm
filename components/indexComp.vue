@@ -154,6 +154,7 @@ h2 {
   font-size: 3rem;
   width: 40%;
   margin-top: 1em;
+  
 }
 
 .text {
@@ -216,6 +217,8 @@ hr {
 a {
   margin-top: 1em;
   font-size: 1em;
+  color: black;
+  text-decoration: none;
 }
 
 a:hover {
