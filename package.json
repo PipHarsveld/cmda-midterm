@@ -2,9 +2,6 @@
   "name": "cmda-midterm",
   "version": "1.0.0",
   "private": true,
-  "engines": {
-    "node": "16.x"
-  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
