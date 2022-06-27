@@ -21,8 +21,8 @@ export default {}
 </script>
 
 <style>
-/* section {
+section {
     background-color: hotpink;
-} */
+}
 
 </style>
