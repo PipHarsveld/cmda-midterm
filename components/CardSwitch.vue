@@ -2,44 +2,46 @@
 - Border img nog niet goed gexporteerd
 - Content uit json halen  -->
 <template>
-  <section class="CardSwitch">
-    <h2>1.2 Competenties</h2>
-    <div class="CardCon" :class="[isChecked ? 'bgBlack' : 'bgYellow']">
-      <div>
-        <h5 style="margin-bottom: 0; font-size: 1.2em">
-          Beroeps specifieke kerncompetentie
-        </h5>
-        <p>
-          Hebben betrekking op inhoudelijke geschiktheid in de beroepspraktijk
-          en de situaties die zich daar voordoen
-        </p>
-        <h3>Principes</h3>
-        <h4 v-if="isChecked">Nieuw</h4>
-        <h4 v-else>Oud</h4>
-        <ul v-if="isChecked">
-          <li>Multidisciplinair samenwerken</li>
-          <li>Manifesteren en presenteren</li>
-          <li>Initiëren organiseren en regisseren</li>
-          <li>Ontwikkelen en reflecteren</li>
-          <li>Onderzoeken</li>
-        </ul>
-        <ul v-else>
-          <li> Multidisciplinair samenwerken</li>
-          <li>Manifesteren en presenteren</li>
-          <li>Initiëren organiseren en regisseren</li>
-          <li>Ontwikkelen en reflecteren</li>
-          <li>Onderzoeken</li>
-        </ul>
-        <label class=" switch">
-          <input type="checkbox" @click="CardConColor" />
-          <span class="slider" :class="[isChecked ? 'CBlack' : 'Cwhite']"></span>
-        </label>
+  <div>
+    <section class="CardSwitch">
+      <h2>1.2 Competenties</h2>
+      <div class="CardCon" :class="[isChecked ? 'bgBlack' : 'bgYellow']">
+        <div>
+          <h5 style="margin-bottom: 0; font-size: 1.2em">
+            Beroeps specifieke kerncompetentie
+          </h5>
+          <p>
+            Hebben betrekking op inhoudelijke geschiktheid in de beroepspraktijk
+            en de situaties die zich daar voordoen
+          </p>
+          <h3>Principes</h3>
+          <h4 v-if="isChecked">Nieuw</h4>
+          <h4 v-else>Oud</h4>
+          <ul v-if="isChecked">
+            <li>Multidisciplinair samenwerken</li>
+            <li>Manifesteren en presenteren</li>
+            <li>Initiëren organiseren en regisseren</li>
+            <li>Ontwikkelen en reflecteren</li>
+            <li>Onderzoeken</li>
+          </ul>
+          <ul v-else>
+            <li> Multidisciplinair samenwerken</li>
+            <li>Manifesteren en presenteren</li>
+            <li>Initiëren organiseren en regisseren</li>
+            <li>Ontwikkelen en reflecteren</li>
+            <li>Onderzoeken</li>
+          </ul>
+          <label class=" switch">
+            <input type="checkbox" @click="CardConColor" />
+            <span class="slider" :class="[isChecked ? 'CBlack' : 'Cwhite']"></span>
+          </label>
+        </div>
+        <img
+          src="https://images.prismic.io/cmd-midterm/663bf539-c574-417c-97e6-7b35177b4144_CardCon-Border.png?auto=compress,format"
+          class="cardBorder" />
       </div>
-      <img
-        src="https://images.prismic.io/cmd-midterm/663bf539-c574-417c-97e6-7b35177b4144_CardCon-Border.png?auto=compress,format"
-        class="cardBorder" />
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -59,6 +61,10 @@ export default {
 
 <style scoped>
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap'); */
+
+div{
+  display: flex;
+}
 
 .CardCon {
   /* font-family: 'Open Sans'; */
