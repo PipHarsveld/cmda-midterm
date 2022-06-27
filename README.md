@@ -74,10 +74,11 @@ Lees meer over de presentatie van deze website in de [wiki](https://github.com/K
 - [VUE.JS](https://vuejs.org/guide/introduction.html)
 
 # Author
-De makers van deze website zijn: 
-- [*Fabienne van den Steen*](https://github.com/Fabienne02)
-- [*Kai van Wezel*](https://github.com/KaivWezel)
-- [*Nathan Bommezijn*](https://github.com/dewarian)
+De ontwerpers en makers van deze website zijn: 
+- [*ALana Eastman*](https://github.com/AlanaEastman)
+- [*Nina Rijntjes*](https://github.com/n1en)
+- [*Pip Harsveld*](https://github.com/PipHarsveld)
+- [*Ryan Zoeters*](https://github.com/ryanzoeters69)
 
 ## License 
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)]()
