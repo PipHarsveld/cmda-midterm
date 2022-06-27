@@ -2,7 +2,7 @@
 - Border img nog niet goed gexporteerd
 - Content uit json halen  -->
 <template>
-  <div>
+  <div class="cardsParent">
     <section class="CardSwitch">
       <h2>1.2 Competenties</h2>
       <div class="CardCon" :class="[isChecked ? 'bgBlack' : 'bgYellow']">
@@ -62,7 +62,7 @@ export default {
 <style scoped>
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap'); */
 
-div{
+.cardsParent{
   display: flex;
 }
 
