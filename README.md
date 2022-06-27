@@ -75,7 +75,7 @@ Lees meer over de presentatie van deze website in de [wiki](https://github.com/K
 
 # Author
 De ontwerpers en makers van deze website zijn: 
-- [*ALana Eastman*](https://github.com/AlanaEastman)
+- [*Alana Eastman*](https://github.com/AlanaEastman)
 - [*Nina Rijntjes*](https://github.com/n1en)
 - [*Pip Harsveld*](https://github.com/PipHarsveld)
 - [*Ryan Zoeters*](https://github.com/ryanzoeters69)
