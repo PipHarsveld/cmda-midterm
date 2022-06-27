@@ -6,7 +6,7 @@
     <header>
       <div class="header-content">
         <h1>Communicatie & Multimedia design</h1>
-        <p id="header-block-h1">Mid-terms</p>
+        <p id="header-block-h1">Midterm</p>
         <p id="header-block-last">Curriculum 2022-2024</p>
       </div>
     </header>
@@ -14,7 +14,7 @@
     <body>
       <div class="yellow-container">
         <div class="text">
-          <h2>Index</h2>
+          <h2>voorwoord</h2>
           <p>Hier komt een voorwoord voor de mid term accreditatie.</p>
         </div>
         <img
@@ -28,11 +28,11 @@
           >
 
           <hr />
-          <!-- <div class="heading-1">
+          <div class="heading-1">
             <a>1.1 wow</a>
             <a>1.2 geweldig</a>
             <a>1.3 meen je niet?</a>
-          </div> -->
+          </div>
         </div>
         <div class="link-container">
           <a class="heading" href="/standaard/standaard-2"
@@ -40,31 +40,31 @@
           >
 
           <hr />
-          <!-- <div class="heading-1">
+          <div class="heading-1">
             <a>1.1 wow</a>
             <a>1.2 geweldig</a>
             <a>1.3 meen je niet?</a>
-          </div> -->
+          </div>
         </div>
         <div class="link-container">
           <a class="heading" href="/standaard/standaard-3">3.0 Toetsing</a>
           <hr />
-          <!-- <div class="heading-1">
+          <div class="heading-1">
             <a>1.1 wow</a>
             <a>1.2 geweldig</a>
             <a>1.3 meen je niet?</a>
-          </div> -->
+          </div>
         </div>
         <div class="link-container">
           <a class="heading" href="/standaard/standaard-4"
             >4.0 Gerealiseerde resultaten</a
           >
           <hr />
-          <!-- <div class="heading-1">
+          <div class="heading-1">
             <a>1.1 wow</a>
             <a>1.2 geweldig</a>
             <a>1.3 meen je niet?</a>
-          </div> -->
+          </div>
         </div>
       </div>
     </body>
