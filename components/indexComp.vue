@@ -29,9 +29,11 @@
 
           <hr />
           <div class="heading-1">
-            <a>1.1 wow</a>
-            <a>1.2 geweldig</a>
-            <a>1.3 meen je niet?</a>
+            <a>1.1 Humanity-centered ontwerpers van digitale, interactieve producten</a>
+            <a>1.2 Competenties</a>
+            <a>1.3 Werkveld en maatschappij</a>
+            <a>1.4 Ontwikkelingen</a>
+            <a>1.5Ambities en dilemma's</a>
           </div>
         </div>
         <div class="link-container">
@@ -41,18 +43,28 @@
 
           <hr />
           <div class="heading-1">
-            <a>1.1 wow</a>
-            <a>1.2 geweldig</a>
-            <a>1.3 meen je niet?</a>
+            <a>2.1 Onderwijsvisie</a>
+            <a>2.2Curriculum opbouw</a>
+            <a>2.3 Onderwijs en praktijk</a>
+            <a>2.4 Onderwijs en onderzoek</a>
+            <a>2.5 Internationalisering</a>
+            <a>2.6 Studenten begeleiden</a>
+            <a>2.7 Digitale en analoge voorzieningen</a>
+            <a>2.8 Borging onderwijskwaliteit</a>
+            <a>2.9 Ambities en dilemma's</a>
+            
+
           </div>
         </div>
         <div class="link-container">
           <a class="heading" href="/standaard/standaard-3">3.0 Toetsing</a>
           <hr />
           <div class="heading-1">
-            <a>1.1 wow</a>
-            <a>1.2 geweldig</a>
-            <a>1.3 meen je niet?</a>
+            <a>3.1 Toetsbeleid en -plan</a>
+            <a>3.2 Toetsprogramma en praktijk</a>
+            <a>3.3 Toetsing en feedback</a>
+            <a>3.4 Borging en kwaliteit</a>
+            <a>3.5 Ambities en dilemma's</a>
           </div>
         </div>
         <div class="link-container">
@@ -61,9 +73,9 @@
           >
           <hr />
           <div class="heading-1">
-            <a>1.1 wow</a>
-            <a>1.2 geweldig</a>
-            <a>1.3 meen je niet?</a>
+            <a>4.1 Afstudeerproces</a>
+            <a>4.2 Borging afstudeerniveau vanuit examencommissie</a>
+            <a>4.3 Ambities en dilemma's</a>
           </div>
         </div>
       </div>
