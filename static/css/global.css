@@ -11,7 +11,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   /* Specifically for the navbar and scrolling */
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -27,8 +26,6 @@ body {
 
 *:focus,
 *:focus-visible {
-  /* border: 5px solid var(--geel); */
-  /* box-shadow: 0 0 0.2em 0.2em var(--black); */
   outline: 0.3em solid #2154ff;
   outline-offset: 0.2em;
   transition: 200ms;
