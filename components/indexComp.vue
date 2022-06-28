@@ -24,7 +24,8 @@
       <div class="links">
         <div class="link-container">
           <a class="heading" href="/standaard/standaard-1"
-            >1.0 Beoogde leerresultaten</a
+            >1.0 <br>
+             Beoogde leerresultaten</a
           >
 
           <hr />
@@ -38,7 +39,8 @@
         </div>
         <div class="link-container">
           <a class="heading" href="/standaard/standaard-2"
-            >2.0 Onderwijsleeromgeving</a
+            >2.0 <br>
+             Onderwijsleeromgeving</a
           >
 
           <hr />
@@ -57,7 +59,9 @@
           </div>
         </div>
         <div class="link-container">
-          <a class="heading" href="/standaard/standaard-3">3.0 Toetsing</a>
+          <a class="heading" href="/standaard/standaard-3"
+          >3.0 <br> 
+          Toetsing</a>
           <hr />
           <div class="heading-1">
             <a href="/standaard/standaard-3">3.1 Toetsbeleid en -plan</a>
@@ -69,7 +73,8 @@
         </div>
         <div class="link-container">
           <a class="heading" href="/standaard/standaard-4"
-            >4.0 Gerealiseerde resultaten</a
+            >4.0 <br>
+            Gerealiseerde resultaten</a
           >
           <hr />
           <div class="heading-1">
@@ -203,6 +208,7 @@ div.link-container {
 }
 a.heading {
   margin: 5em 0 0;
+  font-size: 1.3rem;
   flex-direction: column;
   width: 100%;
   
