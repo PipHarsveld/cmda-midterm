@@ -44,9 +44,9 @@ p {
 section {
   display: grid;
   gap: 0 60px;
-  margin: 2em;
-  padding: 1em;
+  margin: 2em 0;
 }
+
 .img {
   /* width: clamp(100%, 20em, 25em); */
   width: 27vw;
