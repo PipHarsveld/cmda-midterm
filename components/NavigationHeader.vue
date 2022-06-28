@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar" aria-label="main">
     <nuxt-link to="/" class="logo">
-      <span>CMD Midterm</span>
+      <span>CMD Mid-Term</span>
     </nuxt-link>
     <ul class="navLinks">
       <li v-for="(link, index) in links" :key="index" class="navItem">

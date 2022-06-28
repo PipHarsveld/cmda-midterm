@@ -29,11 +29,11 @@
 
           <hr />
           <div class="heading-1">
-            <a>1.1 Humanity-centered ontwerpers van digitale, interactieve producten</a>
-            <a>1.2 Competenties</a>
-            <a>1.3 Werkveld en maatschappij</a>
-            <a>1.4 Ontwikkelingen</a>
-            <a>1.5Ambities en dilemma's</a>
+            <a href="/standaard/standaard-1">1.1 Humanity-centered ontwerpers van digitale, interactieve producten</a>
+            <a href="/standaard/standaard-1"> 1.2 Competenties</a>
+            <a href="/standaard/standaard-1">1.3 Werkveld en maatschappij</a>
+            <a href="/standaard/standaard-1">1.4 Ontwikkelingen</a>
+            <a href="/standaard/standaard-1">1.5Ambities en dilemma's</a>
           </div>
         </div>
         <div class="link-container">
@@ -43,15 +43,15 @@
 
           <hr />
           <div class="heading-1">
-            <a>2.1 Onderwijsvisie</a>
-            <a>2.2Curriculum opbouw</a>
-            <a>2.3 Onderwijs en praktijk</a>
-            <a>2.4 Onderwijs en onderzoek</a>
-            <a>2.5 Internationalisering</a>
-            <a>2.6 Studenten begeleiden</a>
-            <a>2.7 Digitale en analoge voorzieningen</a>
-            <a>2.8 Borging onderwijskwaliteit</a>
-            <a>2.9 Ambities en dilemma's</a>
+            <a href="/standaard/standaard-2">2.1 Onderwijsvisie </a> 
+            <a href="/standaard/standaard-2">2.2Curriculum opbouw</a>
+            <a href="/standaard/standaard-2">2.3 Onderwijs en praktijk</a>
+            <a href="/standaard/standaard-2">2.4 Onderwijs en onderzoek</a>
+            <a href="/standaard/standaard-2">2.5 Internationalisering</a>
+            <a href="/standaard/standaard-2">2.6 Studenten begeleiden</a>
+            <a href="/standaard/standaard-2">2.7 Digitale en analoge voorzieningen</a>
+            <a href="/standaard/standaard-2">2.8 Borging onderwijskwaliteit</a>
+            <a href="/standaard/standaard-2">2.9 Ambities en dilemma's</a>
             
 
           </div>
@@ -60,11 +60,11 @@
           <a class="heading" href="/standaard/standaard-3">3.0 Toetsing</a>
           <hr />
           <div class="heading-1">
-            <a>3.1 Toetsbeleid en -plan</a>
-            <a>3.2 Toetsprogramma en praktijk</a>
-            <a>3.3 Toetsing en feedback</a>
-            <a>3.4 Borging en kwaliteit</a>
-            <a>3.5 Ambities en dilemma's</a>
+            <a href="/standaard/standaard-3">3.1 Toetsbeleid en -plan</a>
+            <a href="/standaard/standaard-3">3.2 Toetsprogramma en praktijk</a>
+            <a href="/standaard/standaard-3">3.3 Toetsing en feedback</a>
+            <a href="/standaard/standaard-3">3.4 Borging en kwaliteit</a>
+            <a href="/standaard/standaard-3"> 3.5 Ambities en dilemma's</a>
           </div>
         </div>
         <div class="link-container">
@@ -73,9 +73,9 @@
           >
           <hr />
           <div class="heading-1">
-            <a>4.1 Afstudeerproces</a>
-            <a>4.2 Borging afstudeerniveau vanuit examencommissie</a>
-            <a>4.3 Ambities en dilemma's</a>
+            <a href="/standaard/standaard-4">4.1 Afstudeerproces</a>
+            <a href="/standaard/standaard-4">4.2 Borging afstudeerniveau vanuit examencommissie</a>
+            <a href="/standaard/standaard-4">4.3 Ambities en dilemma's</a>
           </div>
         </div>
       </div>
@@ -177,7 +177,11 @@ h2 {
   }
 }
 
+
+
 .links {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   margin-bottom: 10em;
 }
@@ -187,10 +191,18 @@ h2 {
   display: flex;
   flex-direction: column;
   width: 100%;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
+a.heading {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: left;
+}
 .heading {
   margin: 0;
   font-size: 1.5rem;
@@ -211,9 +223,12 @@ hr {
   flex-direction: column;
   margin: 0;
   font-weight: 200;
-  width: 40%;
+  width: 80%;
 }
 
+div.link-container {
+  margin: 0;
+}
 a {
   margin-top: 1em;
   font-size: 1em;
