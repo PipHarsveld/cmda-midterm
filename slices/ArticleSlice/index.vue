@@ -48,7 +48,8 @@ section {
   padding: 1em;
 }
 .img {
-  width: clamp(100%, 20em, 25em);
+  /* width: clamp(100%, 20em, 25em); */
+  width: 27vw;
   object-fit: cover;
   object-position: bottom;
 }
