@@ -29,7 +29,7 @@ body {
 *:focus-visible {
   /* border: 5px solid var(--geel); */
   /* box-shadow: 0 0 0.2em 0.2em var(--black); */
-  outline: 0.3em solid #2154ff;
+  outline: 0.3em solid #25167A;
   outline-offset: 0.2em;
   transition: 200ms;
 }
