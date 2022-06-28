@@ -36,8 +36,8 @@ export default {
 
   background-color: #fff021;
   background-color: var(--geel);
-  /* width: 100vw; */
-  width: 100%;
+  width: 100vw;
+  /* width: 100%; */
   /* width: calc(100% - 2em); */
   position: fixed;
   top: 0;

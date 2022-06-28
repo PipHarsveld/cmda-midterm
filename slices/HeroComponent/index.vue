@@ -42,7 +42,7 @@ section {
   background-position: center;
   background-size: 100%;
   background-color: #ffcc00;
-  width: 100%;
+  width: 100vw;
   position: absolute;
   top: 1em;
   left: 0;
@@ -50,7 +50,8 @@ section {
 }
 
 .header-content {
-  margin-left: 5em;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .title {
