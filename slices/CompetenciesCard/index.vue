@@ -129,6 +129,9 @@ export default {
   font-weight: bold;
 }
 
+.CardCon.bgBlack div{
+  background-color: var(--lavendel);
+}
 
 .CardCon h4 {
   font-weight: 700;
@@ -138,6 +141,14 @@ export default {
   border: 0.15rem solid black;
   padding: 0.2rem 3rem;
   width: fit-content;
+}
+
+.CardCon.bgBlack h4{
+  border: none;
+}
+
+.CardCon.bgBlack div{
+  color: black;
 }
 
 .Cardcon div h5 {

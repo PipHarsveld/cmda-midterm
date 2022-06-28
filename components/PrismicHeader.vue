@@ -94,9 +94,6 @@ li:hover {
 }
 
 li:active{
-  color: hotpink;
-}
-.nuxt-link-active {
   font-weight: bold;
 }
 
