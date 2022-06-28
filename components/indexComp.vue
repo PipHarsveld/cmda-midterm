@@ -14,7 +14,7 @@
     <body>
       <div class="yellow-container">
         <div class="text">
-          <h2>voorwoord</h2>
+          <h2>Voorwoord</h2>
           <p>Hier komt een voorwoord voor de mid term accreditatie.</p>
         </div>
         <img
@@ -180,10 +180,9 @@ h2 {
 
 
 .links {
-  max-width: 1200px;
-  margin: 0 auto;
+  
   display: flex;
-  margin-bottom: 10em;
+  margin-bottom: 0;
 }
 
 .link-container {
@@ -194,14 +193,20 @@ h2 {
   justify-content: flex-start;
   align-items: center;
 }
-
-a.heading {
-  margin-top: 5em;
+div.link-container {
+  margin: 0;
   display: flex;
+  align-items: flex-start;
+  padding: 0 1rem;
+  margin-left: 2rem;
+  margin-right:2rem;
+}
+a.heading {
+  margin: 5em 0 0;
   flex-direction: column;
   width: 100%;
-  justify-content: flex-start;
-  align-items: left;
+  
+  
 }
 .heading {
   margin: 0;
@@ -211,8 +216,16 @@ a.heading {
   margin-top: 2em;
 }
 
+a {
+  margin-top: 1em;
+  font-size: 1em;
+  color: black;
+  text-decoration: none;
+
+}
+
 hr {
-  width: 10em;
+  width: 100%;
   border-top: 5px solid #fff021;
   border-radius: 5px;
   border-bottom: none;
@@ -226,15 +239,8 @@ hr {
   width: 80%;
 }
 
-div.link-container {
-  margin: 0;
-}
-a {
-  margin-top: 1em;
-  font-size: 1em;
-  color: black;
-  text-decoration: none;
-}
+
+
 
 a:hover {
   text-decoration: underline;
