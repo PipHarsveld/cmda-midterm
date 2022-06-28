@@ -4,7 +4,7 @@
     <div class="cardConWrapper">
       <div class="CardCon" :class="[isChecked ? 'bgBlack' : 'bgYellow']">
         <PrismicRichText :field="slice.primary.compTitle" />
-        <PrismicRichText :field="slice.primary.compDescription" class="desc" />
+        <!-- <PrismicRichText :field="slice.primary.compDescription" class="desc" /> -->
         <!-- <h3>Principes</h3> -->
         <h4 v-if="isChecked">Nieuw</h4>
         <h4 v-else>Oud</h4>
@@ -109,6 +109,10 @@ export default {
   transition: 0.2s;
 }
 
+.bgBlack h4{
+  color: black;
+}
+
 .CBlack {
   color: #000000;
 }
@@ -118,12 +122,22 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  color: white;
+  background-color: black;
+  font-size: 1.4rem;
+  padding: 0.8rem;
+  font-weight: bold;
 }
+
 
 .CardCon h4 {
   font-weight: 700;
   font-size: 2rem;
-  margin: 0.2em 0 0.2em 0;
+  margin: 2rem 0 2rem 0;
+  background-color: #fff021;
+  border: 0.15rem solid black;
+  padding: 0.2rem 3rem;
+  width: fit-content;
 }
 
 .Cardcon div h5 {
