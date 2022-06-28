@@ -69,9 +69,7 @@ export default {
   display: block;
   color: inherit;
   text-decoration: none;
-  height: 100%;
-  margin: 0.5em 1em;
-  padding: 0.5em 0;
+  padding: 1em .8em;
 }
 
 li {
@@ -91,10 +89,6 @@ li:hover {
   background: var(--black);
   color: var(--white);
   cursor: pointer;
-}
-
-li:active{
-  font-weight: bold;
 }
 
 @media screen and (max-width: 820px) {
