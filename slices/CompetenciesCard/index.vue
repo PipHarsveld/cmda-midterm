@@ -70,6 +70,14 @@ export default {
   border-image-width: 20px;
 }
 
+.CardSwitch{
+  margin-bottom: 4rem;
+}
+
+.cardConWrapper{
+  display: flex;
+}
+
 .CardSwitch h2 {
   margin-left: 1em;
   /* font-family: 'Open Sans'; */
@@ -89,7 +97,7 @@ export default {
 }
 
 .bgYellow {
-  background-color: #fff021;
+  background-color: var(--lavendel);
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -153,7 +161,7 @@ export default {
   transform: translateY(2px);
 }
 .CardCon.bgBlack ul li:before {
-  border-left-color: #fff021;
+  border-left-color: var(--lavendel);
 }
 
 .switch {
@@ -203,7 +211,7 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
-  background-color: #fff021;
+  background-color: var(--lavendel);
 }
 
 input:checked + .CardCon {
