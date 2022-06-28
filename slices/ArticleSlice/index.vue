@@ -40,6 +40,7 @@ export default {
 p {
   margin: 1em 0;
 }
+
 section {
   display: grid;
   gap: 0 60px;
